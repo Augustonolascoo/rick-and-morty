@@ -1,7 +1,7 @@
-document.getElementById("fetch-users").addEventListener("click", fetchCharacters);
+document.getElementById("busca").addEventListener("click", fetchCharacters);
 
 async function fetchCharacters() {
-    const userContainer = document.getElementById("user-container");
+    const userContainer = document.getElementById("container");
     userContainer.innerHTML = ""; 
     try {
        
